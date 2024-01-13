@@ -1,12 +1,14 @@
 public class TiposVariaveis {
+
     public static void main(String[] args) throws Exception {
         
-        String concatenacao = "?";
+        boolean a = true;
+        boolean b = true;
 
-        concatenacao = 1+1+"1";
-
-        System.out.println(concatenacao);
-
-        
+        if (a && b){
+	        System.out.println("São verdadeiras");
+        }
+        System.out.println("Fim");
     }
 }
+
